@@ -1,5 +1,3 @@
-<h1 align="center">RefPrint</h1>
-
 <h3 align="center">
 Representation and Reference Selection in Training-Free Synthetic Image Attribution
 </h3>
