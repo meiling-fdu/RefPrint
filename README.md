@@ -165,4 +165,4 @@ If you find this work or the released datasets useful, please cite:
 
 ## Contact
 
-For questions about the paper, datasets, or code, please open a GitHub issue.
+For questions about the paper, datasets, or code, please open a GitHub issue or contact mlli20@fudan.edu.cn.
