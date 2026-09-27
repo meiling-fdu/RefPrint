@@ -1,3 +1,5 @@
+<h1 align="center">RefPrint</h1>
+
 <h3 align="center">
 Representation and Reference Selection in Training-Free Synthetic Image Attribution
 </h3>
@@ -23,7 +25,7 @@ Representation and Reference Selection in Training-Free Synthetic Image Attribut
   &nbsp;·&nbsp;
   <a href="https://huggingface.co/datasets/Meilinger00/BC-Attr-6">🤗 BC-Attr-6</a>
   &nbsp;·&nbsp;
-  <a href="#datasets">📦 Datasets</a>
+  <a href="https://huggingface.co/datasets/Meilinger00/COCO-Attr">🤗 COCO-Attr</a>
   &nbsp;·&nbsp;
   <a href="#citation">📚 BibTeX</a>
 </p>
@@ -52,7 +54,7 @@ Our experiments show that attribution accuracy consistently peaks at **intermedi
 
 ## News
 
-- **2026-09:** BC-Attr-6 is publicly available on Hugging Face.
+- **2026-09:** BC-Attr-6 and COCO-Attr are publicly available on Hugging Face.
 - **2026-07:** RefPrint is available on arXiv.
 
 ## Datasets
@@ -62,7 +64,7 @@ We evaluate RefPrint on three datasets: the existing face-only **FaceResyn** ben
 | Dataset | Status | Description | Download |
 |---|---|---|---|
 | **BC-Attr-6** | ✅ Available | Bias-controlled benchmark with 10 generators and 6 semantic categories | [Hugging Face](https://huggingface.co/datasets/Meilinger00/BC-Attr-6) |
-| **COCO-Attr** | 🚧 Coming soon | Attribution benchmark generated from MSCOCO-derived captions | — |
+| **COCO-Attr** | ✅ Available | Attribution benchmark generated from MSCOCO-derived captions | [Hugging Face](https://huggingface.co/datasets/Meilinger00/COCO-Attr) |
 
 ### BC-Attr-6
 
@@ -91,9 +93,13 @@ See the [BC-Attr-6 dataset card](https://huggingface.co/datasets/Meilinger00/BC-
 
 **COCO-Attr** uses the same candidate generators as BC-Attr-6 but replaces predefined semantic categories with **MSCOCO-derived captions** as generation prompts, providing a more heterogeneous distribution of objects, scenes, and compositions.
 
-The dataset contains **1,000 query images** in total.
+The public release contains:
 
-> **Release in progress.**
+- **1,000 query images**
+- **39,429 pre-generated reference images**
+- **100,000 query-conditioned resynthesis reference images**
+
+See the [COCO-Attr dataset card](https://huggingface.co/datasets/Meilinger00/COCO-Attr) for the released data structure, metadata, and usage instructions.
 
 ## Method
 
