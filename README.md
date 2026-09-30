@@ -21,6 +21,10 @@ Representation and Reference Selection in Training-Free Synthetic Image Attribut
 </p>
 
 <p align="center">
+  <strong>Accepted to IEEE WIFS 2026</strong>
+</p>
+
+<p align="center">
   <a href="https://arxiv.org/abs/2607.12052">📄 Paper</a>
   &nbsp;·&nbsp;
   <a href="https://huggingface.co/datasets/Meilinger00/BC-Attr-6">🤗 BC-Attr-6</a>
@@ -54,6 +58,7 @@ Our experiments show that attribution accuracy consistently peaks at **intermedi
 
 ## News
 
+- **2026-09:** RefPrint has been accepted to **IEEE WIFS 2026**.
 - **2026-09:** BC-Attr-6 and COCO-Attr are publicly available on Hugging Face.
 - **2026-07:** RefPrint is available on arXiv.
 
